@@ -1,0 +1,11 @@
+<!-- app/views/processed_playlists.html.erb -->
+<h1>Processed Playlists</h1>
+
+<ul>
+  <% @playlists.each do |playlist| %>
+    <li>
+      <h3><%= playlist.name %></h3>
+      <p><%= playlist.description %></p>
+    </li>
+  <% end %>
+</ul>

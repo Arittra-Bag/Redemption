@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redemption</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+      <nav>
+      <!-- Your navigation bar code -->
+      <ul>
+        <li>
+          <%= link_to 'Authenticate with Spotify', '/auth/spotify' %>
+        </li>
+        <!-- Other navigation items -->
+      </ul>
+    </nav>
+
+    <% @playlists.each do |playlist| %>
+      <p><%= playlist.name %></p>
+    <% end %>
+
+    <%= yield %>
+  </body>
+</html>
