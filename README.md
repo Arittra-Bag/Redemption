@@ -9,7 +9,6 @@ Redemption is a Ruby on Rails application that fetches data from the Spotify API
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
-- [License](#license)
 
 ## Getting Started
 
@@ -110,15 +109,3 @@ rails test
 ```
 
 The tests are written using [RSpec](https://rspec.info/) (or MiniTest) and can be found in the `spec` (or `test`) directory.
-
-## License
-
-Redemption is open-source software released under the [MIT License](LICENSE).
-
----
-
-Feel free to customize and expand upon this README file based on your specific application requirements. Include any additional information, such as deployment instructions, troubleshooting guides, or project-specific details, to make it more comprehensive and helpful for other developers and users.
-
-Remember to replace placeholders like `your-username`, `your-client-id`, and `your-client-secret` with the appropriate values relevant to your project.
-
-If you have any further questions or need additional guidance, please let me know!
